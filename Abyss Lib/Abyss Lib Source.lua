@@ -121,7 +121,7 @@ do
     Utility.RemoveDrawing = function(Instance, Location)
         local SpecificDrawing = 0
         --
-        Location = Location or Library.Drawings
+        Location = Location
         --
         for Index, Value in pairs(Location) do 
             if Value[1] == Instance then
